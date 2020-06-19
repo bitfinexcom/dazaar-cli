@@ -1,0 +1,37 @@
+{
+  "name": "dazaar-cli",
+  "version": "0.0.0",
+  "description": "Dazaar CLI",
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+    "dazaar-keygen": "./bin/keygen.js",
+    "dazaar-sell": "./bin/sell.js",
+    "dazaar-fetch": "./bin/fetch.js",
+    "dazaar-buy": "./bin/buy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/dazaar-cli.git"
+  },
+  "author": "Bitfinex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/dazaar-cli/issues"
+  },
+  "homepage": "https://github.com/bitfinexcom/dazaar-cli#readme",
+  "dependencies": {
+    "dazaar": "github:bitfinexcom/dazaar",
+    "dazaar-payment": "github:bitfinexcom/dazaar-payment",
+    "dazaar-scatter-pay": "github:bitfinexcom/dazaar-scatter-pay",
+    "hypercore": "^9.2.2",
+    "minimist": "^1.2.5",
+    "pump": "^3.0.0",
+    "random-access-file": "^2.1.4",
+    "sandbox-path": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
