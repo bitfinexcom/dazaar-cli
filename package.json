@@ -1,6 +1,6 @@
 {
-  "name": "dazaar-cli",
-  "version": "0.0.0",
+  "name": "@dazaar/cli",
+  "version": "1.0.0",
   "description": "Dazaar CLI",
   "scripts": {
     "test": "standard"
