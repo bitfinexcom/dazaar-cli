@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const Payment = require('dazaar-payment')
-const Scatter = require('dazaar-scatter-pay')
+const Payment = require('@dazaar/payment')
+const Scatter = require('@dazaar/scatter-pay')
 const Path = require('sandbox-path')
 const path = require('path')
 const market = require('dazaar')

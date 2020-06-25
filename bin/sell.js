@@ -72,7 +72,7 @@ if (!pay && !isFree) {
   process.exit(1)
 }
 
-const Payment = !isFree && require('dazaar-payment')
+const Payment = !isFree && require('@dazaar/payment')
 
 feed.ready(function (err) {
   if (err) throw err

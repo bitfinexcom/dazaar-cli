@@ -1,6 +1,6 @@
 {
   "name": "@dazaar/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dazaar CLI",
   "scripts": {
     "test": "standard"
@@ -24,7 +24,7 @@
   "dependencies": {
     "@dazaar/payment": "^1.0.0",
     "@dazaar/scatter-pay": "^1.0.0",
-    "@dazaar/sdk": "^1.0.1",
+    "dazaar": "^1.0.1",
     "hypercore": "^9.2.2",
     "minimist": "^1.2.5",
     "pump": "^3.0.0",
