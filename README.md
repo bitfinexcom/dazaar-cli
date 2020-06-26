@@ -3,7 +3,7 @@
 Command line tool for Dazaar, with a series of payment providers included
 
 ```
-npm install -g dazaar-cli
+npm install -g @dazaar/cli
 ```
 
 * `dazaar-buy`
